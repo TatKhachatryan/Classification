@@ -16,15 +16,17 @@ Choosing the right value of a *k* is a process called parameter tuning and it is
 
 To choose a value for *k*:
 
-√n, where n is the total number of data points
-use GridSearchCV
+* √n, where n is the total number of data points <br>
+* use GridSearchCV
+
 In case of two classes choose odd *k* value to avoid confusion.
 
 ### When do we use KNN?
 
-Data is labeled,
-Data is noise free (clean)
-Data is small.
+* Data is labeled,
+* Data is noise free (clean)
+* Data is small.
+
 KNN is a lazy learner, we don't use it with large data, because ut doesn't learn from the training set immediately, instead, it stores the dataset and at the time of classification, it performs an action on the dataset.
 
 USE CASE: Predict if a person has diabetes or not.
